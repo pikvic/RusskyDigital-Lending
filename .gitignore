@@ -1,6 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm,macos,windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,macos,windows,visualstudiocode
-
+.idea
 ### macOS ###
 # General
 .DS_Store
@@ -9,7 +9,6 @@
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
