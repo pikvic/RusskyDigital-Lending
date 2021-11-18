@@ -112,7 +112,45 @@ h1{
     justify-content: center;
     border-radius: 54px 54px 0px 54px;
 }
-
+.group_answer_people{
+    display: flex;
+}
+.group_answer_people > img:nth-child(1){
+    width: 11vw;
+    height: 11vw;
+    position: relative;
+    left: -6vw;
+    top: -1vw;
+    transform: rotate(-5.45deg);
+}
+.group_answer_people > img:nth-child(2){
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: -10vw;
+    top: -4vw;
+    transform: rotate(0);
+}
+.group_answer_people > img:nth-child(3){
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: -16vw;
+    top: -5vw;
+    transform: rotate(0);
+}
+.group_answer_people > img:nth-child(4){
+    width: 11vw;
+    height: 11vw;
+    position: relative;
+    left: -20vw;
+    top: 0vw;
+    transform: rotate(0);
+}
+.group_answer_people > img{
+    width: 11vw;
+    background: none;
+}
 #programms > h3{
     font-size: 72px;
     color: white;
