@@ -17,7 +17,7 @@ h1{
     font-family: Manrope, serif  ;
     font-style: normal;
     font-weight: bold;
-    font-size: 96px;
+    font-size: 6vw;
     color: #FFFFFF;
     margin-left: 22vw;
     margin-bottom: 0;
@@ -50,7 +50,6 @@ h1{
 
 .about{
     color:white;
-
     margin-top: 35px;
     margin-left: 16vw;
     margin-right: 16vw;
@@ -67,7 +66,91 @@ h1{
         font-size: 12px;
     }
 }
-
+.dialog-smiles{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-message-and-smile{
+    margin-left: 4%;
+}
+.left-message{
+    background: #E06337;
+    font-family: Manrope, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    height: 10vw;
+    color: #FFFFFF;
+    width: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 54px 54px 54px 0px;
+}
+.left-smiles{
+    width: 26vw;
+    position: relative;
+    top: -6vw;
+    background: none;
+}
+.right-message-and-smile{
+    margin-right: 5%;
+    margin-top: 6vw;
+}
+.right-message {
+    background: #E06337;
+    font-family: Manrope, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    height: 10vw;
+    color: #FFFFFF;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 54px 54px 0px 54px;
+}
+.group_answer_people{
+    display: flex;
+}
+.group_answer_people > img:nth-child(1){
+    width: 11vw;
+    height: 11vw;
+    position: relative;
+    left: -6vw;
+    top: -1vw;
+    transform: rotate(-5.45deg);
+}
+.group_answer_people > img:nth-child(2){
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: -10vw;
+    top: -4vw;
+    transform: rotate(0);
+}
+.group_answer_people > img:nth-child(3){
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: -16vw;
+    top: -5vw;
+    transform: rotate(0);
+}
+.group_answer_people > img:nth-child(4){
+    width: 11vw;
+    height: 11vw;
+    position: relative;
+    left: -20vw;
+    top: 0vw;
+    transform: rotate(0);
+}
+.group_answer_people > img{
+    width: 11vw;
+    background: none;
+}
 #programms > h3{
     font-size: 72px;
     color: white;
