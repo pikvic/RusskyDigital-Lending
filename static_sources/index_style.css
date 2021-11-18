@@ -10,12 +10,20 @@
     font-family: Manrope-bold;
     src: url("/static_sources/Manrope/static/Manrope-ExtraBold.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+body {
+    margin-top: 100px;
+}
+
 *{
+    font-family: 'Manrope', serif  ;
     margin: 0;
     background: rgb(20, 48, 156);
 }
 h1{
-    font-family: Manrope, serif  ;
+    font-family: 'Manrope', serif  ;
     font-style: normal;
     font-weight: bold;
     font-size: 6vw;
@@ -499,16 +507,16 @@ h1{
         margin-left: 0px;
     }
     .list{
+        width: 95%;
         height: 100px;
         text-align: left;
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
     .list > span{
         margin: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+        display: block;
         font-size: 20px;
     }
     #grid{

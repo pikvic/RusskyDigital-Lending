@@ -1,0 +1,40 @@
+*{
+    font-family: 'Manrope', serif  ;
+    margin: 0;
+    background: rgb(20, 48, 156);
+}
+
+#intro > .caption_for_h1 {
+   font-size: 2vw;
+}
+
+#intro > .about {
+    font-size: 2vw;
+}
+
+@media all and (max-width: 618px) {
+    #intro > h1 {
+        font-size: 3em;
+    }
+    #intro > .caption_for_h1 {
+        font-size: 1em;
+     }
+     
+     #intro > .about {
+         font-size: 1em;
+     }   
+
+    .about_institute {
+        order: -1;
+    }
+
+    .intro_campus {
+        order: -1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        top: 0;
+        height: auto;
+        width: 100%;
+    }
+}
+
