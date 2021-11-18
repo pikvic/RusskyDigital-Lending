@@ -154,10 +154,12 @@ h1{
     background: none;
 }
 .wrapper{
+    height: 45vw;
     display: flex;
 }
 @media all and (max-width: 618px){
     .wrapper{
+        height: 113vw;
         flex-direction: column;
         align-items: center;
     }
@@ -383,12 +385,17 @@ h1{
     font-family: Manrope-bold, serif;
 }
 #programms > h3{
-    width: 80vw;
+    display: inline-block;
     height: 146px;
     font-size: 5vw;
     color: white;
     font-family: Manrope, serif;
     background-size: 20px 20px ;
+}
+
+#rope{
+    position: relative;
+    top: -4vw;
 }
 
 #span_programms{
@@ -427,6 +434,7 @@ h1{
 }
 
 #programms{
+    
     margin-left: 5vw;
 }
 
@@ -533,6 +541,10 @@ h1{
         flex-direction: column;
         justify-content: flex-end;
         font-size: 9vw;
+    }
+
+    #rope{
+        display: none;
     }
 
 }
