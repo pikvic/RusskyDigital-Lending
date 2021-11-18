@@ -383,6 +383,8 @@ h1{
     font-family: Manrope-bold, serif;
 }
 #programms > h3{
+    margin-top: 2px;
+
     width: 80vw;
     height: 146px;
     font-size: 5vw;
@@ -392,11 +394,11 @@ h1{
 }
 
 #span_programms{
-    margin-right: 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
     background: #E06337;
     width: 466px;
     height: 77px;
