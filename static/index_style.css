@@ -67,3 +67,42 @@ h1{
         font-size: 12px;
     }
 }
+
+#programms > h3{
+    font-size: 72px;
+    color: white;
+    font-family: Manrope, serif;
+    background-size: 20px 20px ;
+}
+
+
+#span_programms{
+    margin: 0px 0px 0px 0px;
+    background: #E06337;
+    width: 466px;
+    height: 77px;
+    text-align: center;
+    font-size: 72px;
+}
+
+.list{
+    color:white;
+    font-family: Manrope, serif;
+    font-size: 24px;
+    width: 1015px;
+    height: 74px;
+    justify-content: space-between;
+    border: white solid 1px;
+    margin-top: 12px;
+}
+
+#list_programms{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list > p{
+    display: flex;
+    width: 899px;
+    height: 45px;
+}
