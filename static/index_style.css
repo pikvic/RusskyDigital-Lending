@@ -383,27 +383,34 @@ h1{
     font-family: Manrope-bold, serif;
 }
 #programms > h3{
-    font-size: 72px;
+    width: 80vw;
+    height: 146px;
+    font-size: 5vw;
     color: white;
     font-family: Manrope, serif;
     background-size: 20px 20px ;
 }
 
-
 #span_programms{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0px 0px 0px 0px;
     background: #E06337;
     width: 466px;
     height: 77px;
     text-align: center;
-    font-size: 72px;
+    font-size: 5vw;
 }
 
 .list{
+    display: flex;
+
     color:white;
     font-family: Manrope, serif;
-    font-size: 24px;
-    width: 1015px;
+    font-size: 1vw;
+    width: 100%;
     height: 74px;
     justify-content: space-between;
     border: white solid 1px;
@@ -411,12 +418,121 @@ h1{
 }
 
 #list_programms{
-    display: flex;
+    
     flex-wrap: wrap;
 }
 
 #list > p{
-    display: flex;
-    width: 899px;
     height: 45px;
+}
+
+#programms{
+    margin-left: 5vw;
+}
+
+.list > span{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 70% 25%;
+    justify-content: space-between;
+}
+
+.comments_about_programms{
+    margin:0px;
+}
+
+#girls_comment_two{
+    margin-left: 4vw;
+}
+
+
+.span_comments{
+    top: -10px;
+    position: relative;
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 65px;
+    background: #E06337;
+    color: white;
+    font-family: Manrope, serif;
+    border-radius: 25.6527px 25.6527px 0px 25.6527px;
+}
+
+.comments_about_programms > div > img{
+    background: white;
+    border-radius: 90px;
+    width: 166px;
+    height: 166px;
+}
+
+#span_comments_id_one{transform: rotate(+10deg);}
+#span_comments_id_two{transform: rotate(-5deg);}
+#span_comments_id_three{transform: rotate(+5deg); }
+
+#span_on_list{
+    color:white;
+    font-family: Manrope,serif;
+    font-size: 16px;
+    margin-left: 45vw;
+}
+
+@media all and (max-width: 618px){
+    #span_on_list{
+        margin-left: 0px;
+    }
+    .list{
+        height: 100px;
+        text-align: left;
+        display: block;
+    }
+
+    .list > span{
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+    #grid{
+        display: block;
+    }
+    #span_programms{
+        width: 80vw;
+        height: 11vw;
+        font-size: 9vw;
+    }
+    .comments_about_programms{
+        margin-top: 20px;
+    }
+    .span_comments{
+        margin-left: 20vw;
+        width: 50vw;
+    }
+
+    .comments_about_programms > div > img{
+        margin-left: 20vw;
+    }
+
+    #girls_comment_two{
+        margin-left: 30vw;
+    }
+
+    #programms > h3{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 9vw;
+    }
+
 }
