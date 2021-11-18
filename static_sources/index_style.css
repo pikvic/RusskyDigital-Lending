@@ -1,14 +1,14 @@
 @font-face{
     font-family: Manrope;
-    src: url("/static/Manrope/static/Manrope-Medium.ttf");
+    src: url("/static_sources/Manrope/static/Manrope-Medium.ttf");
 }
 @font-face {
     font-family: Manrope-light;
-    src: url("/static/Manrope/static/Manrope-ExtraLight.ttf");
+    src: url("/static_sources/Manrope/static/Manrope-ExtraLight.ttf");
 }
 @font-face {
     font-family: Manrope-bold;
-    src: url("/static/Manrope/static/Manrope-ExtraBold.ttf");
+    src: url("/static_sources/Manrope/static/Manrope-ExtraBold.ttf");
 }
 *{
     margin: 0;
@@ -262,7 +262,7 @@ h1{
 .intro_campus{
     width: 38vw;
     height: 25vw;
-    background-image: url("/static/images/campus.png");
+    background-image: url("/static_sources/images/campus.png");
     background-size: 100%;
     display: flex;
     justify-content: center;
