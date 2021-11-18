@@ -17,7 +17,7 @@ h1{
     font-family: Manrope, serif  ;
     font-style: normal;
     font-weight: bold;
-    font-size: 96px;
+    font-size: 6vw;
     color: #FFFFFF;
     margin-left: 22vw;
     margin-bottom: 0;
@@ -50,7 +50,6 @@ h1{
 
 .about{
     color:white;
-
     margin-top: 35px;
     margin-left: 16vw;
     margin-right: 16vw;
@@ -66,4 +65,50 @@ h1{
     .about{
         font-size: 12px;
     }
+}
+.dialog-smiles{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-message-and-smile{
+    margin-left: 4%;
+}
+.left-message{
+    background: #E06337;
+    font-family: Manrope, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    height: 10vw;
+    color: #FFFFFF;
+    width: 58vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 54px 54px 54px 0px;
+}
+.left-smiles{
+    width: 26vw;
+    position: relative;
+    top: -6vw;
+    background: none;
+}
+.right-message-and-smile{
+    margin-right: 5%;
+    margin-top: 6vw;
+}
+.right-message{
+    background: #E06337;
+    font-family: Manrope, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    height: 10vw;
+    color: #FFFFFF;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 54px 54px 0px 54px;
 }
