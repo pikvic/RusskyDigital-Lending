@@ -66,12 +66,13 @@ h1{
     margin-top: 35px;
     margin-left: 16vw;
     margin-right: 16vw;
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
+    font-weight: 200;
     font-size: 24px;
     text-align: center;
 }
 .about > strong{
-    font-family: Manrope-bold, serif;
+    font-family: Manrope, serif;
     font-weight: bold;
 }
 @media all and (max-width: 618px){
@@ -259,9 +260,9 @@ h1{
     background: none;
 }
 .list_of_exams > label{
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 200;
     font-size: 1.1vw;
     line-height: 99.5%;
     color: #FFFFFF;
@@ -337,20 +338,22 @@ h1{
     }
 }
 .text_about_institute{
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 200;
     font-size: 1.6vw;
     padding: 2vw;
     line-height: 139%;
     color: #FFFFFF;
 }
 .text_about_institute > strong{
-    font-family: Manrope-bold, serif;
+    font-family: Manrope, serif;
+    font-weight: bold;
 
 }
 .text_about_institute > ul{
-    font-family: Manrope-bold, serif;
+    font-family: Manrope, serif;
+    font-weight: bold;
 }
 .bottom_about_institute{
     display: flex;
@@ -386,15 +389,16 @@ h1{
 .bottom-text-about-institute{
     margin-left: 2.2vw;
     margin-top: 10px;
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 200;
     font-size: 1.6vw;
     line-height: 139%;
     color: #FFFFFF;
 }
 .bottom-text-about-institute > strong{
-    font-family: Manrope-bold, serif;
+    font-family: Manrope, serif;
+    font-weight: bold;
 }
 #programms > h3{
     display: inline-block;
@@ -624,9 +628,9 @@ h1{
     color: #FFFFFF;
 }
 .one-item-left-column{
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 126.5%;
     color: #FFFFFF;
     display: flex;
@@ -757,9 +761,9 @@ h1{
     color: #FFFFFF;
 }
 .one-item-right-column{
-    font-family: Manrope-light, serif;
+    font-family: Manrope, serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 126.5%;
     color: #FFFFFF;
     display: flex;
@@ -916,7 +920,8 @@ h1{
     align-items: center;
     background: #E06337;
     font-size: 4vw;
-    font-family: Manrope-bold,serif;
+    font-family: Manrope,serif;
+    font-weight: bold;
 }
 
 .grid_footer{
@@ -932,7 +937,8 @@ h1{
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family: Manrope-light,serif;
+    font-family: Manrope,serif;
+    font-weight: 200;
 }
 
 a{
