@@ -19,13 +19,28 @@
     #intro > .caption_for_h1 {
         font-size: 1em;
      }
-     
      #intro > .about {
          font-size: 1em;
      }   
 
-    .about_institute {
+    .exams {
+        order: 1;
+    }
+    .wrapper {
+        height: auto;
+    }
+
+    .about-institute {
         order: -1;
+        margin-bottom: 30px;
+        height: auto;
+        width: 65%;
+    }
+
+    .bottom_about_institute {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .intro_campus {
@@ -36,5 +51,43 @@
         height: auto;
         width: 100%;
     }
-}
 
+    .intro_campus > ul {
+        width: 60%;
+        height: auto;
+    }
+    .intro_campus > ul > li {
+        font-size: 0.7em;
+    }
+    .intro_campus > ul > span {
+        margin-left: 70%;
+    }
+    .text_about_institute {
+        font-size: 0.7em;
+        line-height: 1.5em;
+    }
+    .text_about_institute > ul {
+        margin-top: 10px;
+    }
+    
+    .head_of_exams {
+        font-size: 3em;
+    }
+
+    .list_of_exams > ul {
+        font-size: 1em;
+    }
+
+    .list {
+        padding: 5px;
+    }
+
+    .main-possibiletes > img {
+        display: block;
+        order: 1;
+    }
+
+    .possible-people {
+        left: 0;
+    }
+}
