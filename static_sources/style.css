@@ -90,4 +90,8 @@
     .possible-people {
         left: 0;
     }
+
+    .rect {
+        line-height: normal;
+    }
 }
