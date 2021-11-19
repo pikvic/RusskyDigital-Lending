@@ -94,4 +94,8 @@
     .rect {
         line-height: normal;
     }
+
+    #programms > h3 {
+        height: auto;
+    }
 }
